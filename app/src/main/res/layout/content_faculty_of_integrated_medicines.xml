@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.infodei.FacultyOfIntegratedMedicines"
+    tools:showIn="@layout/activity_faculty_of_integrated_medicines">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRINCIPAL: "
+            android:textColor="#000000"
+            android:textSize="22sp"
+            android:padding="8dp"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="DEPARTMENTS"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/DeptOfAnatomy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department Of Anatomy"
+            android:textColor="#0D47A1"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/DeptOfHomeopathicPharmacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department Of Homeopathic Pharmacy"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/DeptOfOrganonOfMedicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department Of Organon Of Medicines"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/DeptOfPhysiologyAndBiochemistry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department Of Physiology And Biochemistry"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/DeptOfMateriaMedica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department Of Materia Medica"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="ROOMS"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accounts Record Room"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visitors Room"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/LT1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lecture Theatre 1"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/LT2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lecture Theatre 2"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/Seminar_ExamHall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seminar/Examination Hall"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:linksClickable="true"
+            android:textAlignment="center"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Principal's office"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="CENTRAL LIBRARY"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>

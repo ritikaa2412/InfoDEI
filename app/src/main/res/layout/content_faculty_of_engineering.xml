@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.infodei.FacultyOfEngineering"
+    tools:showIn="@layout/activity_faculty_of_engineering">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEAN:Prof. Sant Kumar Gaur"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:padding="8dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="DEPARTMENTS"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department Of Civil Engineering"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/DeptOfElectricalEngg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department Of Electrical Engineering"
+        android:textColor="#0D47A1"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department Of Footwear Technology"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/DeptOfMechanicalEngg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department Of Mechanical Engineering"
+        android:textColor="#0D47A1"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="LABORATORIES"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3D Printing Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Applied Chemistry Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electronics Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Science Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rapid Prototype Lab And 3D Print Centre"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQC Lab And WS-IE Lab"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="ROOMS/HALLS"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assembly Hall"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seminar Hall"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lecture Theater 1"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lecture Theater 2"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drawing Hall 1"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drawing Hall 2"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 1"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 2"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 3"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 4"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 5"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 6"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room 7"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="ENGINEERING LIBRARY"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="BOOK BANK"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/workshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="WORKSHOP"
+        android:textColor="#0D47A1"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="OFFICES"
+        android:padding="8dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dean Office"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Examination Office"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v4.widget.NestedScrollView>
